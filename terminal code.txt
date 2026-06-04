@@ -1,0 +1,121 @@
+
+teminal ka code hai ki kese file puch kar thy hain
+
+
+
+
+
+Microsoft Windows [Version 10.0.26200.8457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\huzai\Desktop\github folder>git init
+Initialized empty Git repository in C:/Users/huzai/Desktop/github folder/.git/
+
+C:\Users\huzai\Desktop\github folder>git add .
+
+C:\Users\huzai\Desktop\github folder>git commit -m "first-github "
+[main (root-commit) 60404b2] first-github
+ 1 file changed, 1 insertion(+)
+ create mode 100644 one.py
+
+C:\Users\huzai\Desktop\github folder>\git branch -M main
+'\git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\huzai\Desktop\github folder>git branch -M main 
+
+C:\Users\huzai\Desktop\github folder>git remote add origin https://github.com/huzaifkhan0026-sketch/github.git
+
+C:\Users\huzai\Desktop\github folder>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 231.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/huzaifkhan0026-sketch/github.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\huzai\Desktop\github folder>git branch
+* main
+
+C:\Users\huzai\Desktop\github folder>git branch new
+
+C:\Users\huzai\Desktop\github folder>git branch
+* main
+  new
+
+C:\Users\huzai\Desktop\github folder>git switch new
+Switched to branch 'new'
+
+C:\Users\huzai\Desktop\github folder>git branch
+  main
+* new
+
+C:\Users\huzai\Desktop\github folder>git add .
+
+C:\Users\huzai\Desktop\github folder>git commit
+Aborting commit due to empty commit message.
+
+C:\Users\huzai\Desktop\github folder>git commit -m "hithubbbb"
+[new cd9dd51] hithubbbb
+ 1 file changed, 1 insertion(+)
+ create mode 100644 two.py
+
+C:\Users\huzai\Desktop\github folder>git branch -M new
+
+C:\Users\huzai\Desktop\github folder>git puch origin new 
+git: 'puch' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+C:\Users\huzai\Desktop\github folder>git push origin new 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 144.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'new' on GitHub by visiting:
+remote:      https://github.com/huzaifkhan0026-sketch/github/pull/new/new
+remote: 
+To https://github.com/huzaifkhan0026-sketch/github.git
+ * [new branch]      new -> new
+
+C:\Users\huzai\Desktop\github folder>git branch main
+fatal: a branch named 'main' already exists
+
+C:\Users\huzai\Desktop\github folder>git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\huzai\Desktop\github folder>git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 898 bytes | 128.00 KiB/s, done.
+From https://github.com/huzaifkhan0026-sketch/github
+   60404b2..f763ee6  main       -> origin/main
+Updating 60404b2..f763ee6
+Fast-forward
+ two.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 two.py
+
+C:\Users\huzai\Desktop\github folder>git branch     
+* main
+  new
+
+C:\Users\huzai\Desktop\github folder>git switch new
+Switched to branch 'new'
+
+C:\Users\huzai\Desktop\github folder>git branch
+  main
+* new
+
+C:\Users\huzai\Desktop\github folder>git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\huzai\Desktop\github folder>
